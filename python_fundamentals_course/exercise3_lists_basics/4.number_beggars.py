@@ -17,3 +17,4 @@ while starting_index < num_of_beggars:
     starting_index += 1
 
 print(final_sum)
+
