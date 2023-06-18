@@ -18,7 +18,7 @@ for index, room in enumerate(rooms, start=1):
 
     elif command == "chest":
         bitcoins += amount
-        print(f"You found {amount} bitcoins")
+        print(f"You found {amount} bitcoins.")
     else:
         health -= amount
         if health > 0:
