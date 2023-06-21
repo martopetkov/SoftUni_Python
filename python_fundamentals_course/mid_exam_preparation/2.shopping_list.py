@@ -15,11 +15,13 @@ while True:
     elif command == "Unnecessary":
         if product in products:
             products.remove(product)
+
     elif command == "Correct":
         new_product = command_args[2]
         if product in products:
             idx = products.index(product)
             products[idx] = new_product
+
     elif command == "Rearrange":
         if product in products:
             products.remove(product)
